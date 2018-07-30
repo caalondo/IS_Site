@@ -1,0 +1,123 @@
+body{
+    font-family: Segoe UI;
+}
+
+h3{
+    font-weight: 500;
+}
+
+h4{
+    font-size: 1.0rem !important;
+    font-weight: 500;
+}
+
+.is-main-container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 990px;
+}
+
+.is-header{
+    display: flex;
+    background: #3d7dc5;
+    border-radius: 4px;
+    padding: 0 20px;
+}
+
+.is-header > h3{
+    color: #fff;
+}
+
+.is-header .is-header-icon-c{
+    margin-left: auto;
+}
+
+.is-header-2{
+    display: flex;
+    background: #3d7dc5;
+    border-radius: 4px;
+    padding: 0 20px;
+}
+
+.is-header-2::after{
+    content: '';
+    height: 0;
+    display: block;
+    border-color: #fff transparent #fff transparent;
+    border-width: 32px;
+    border-style: solid;
+    position: absolute;
+    top: 0;
+    right: -32px;
+}
+
+.is-header-2 > h4{
+    color: #fff;
+}
+
+.is-header-2 .is-header-icon-2{
+    display: flex;
+    margin-left: auto;
+    align-items:center;
+    margin-right:5px;
+}
+
+.is-header-icon-2 > i{
+    font-size: 30px;
+    color: #b4d5f9;
+}
+
+.is-flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.is-flex-container .is-item{
+    flex-basis: 33.33%;
+    animation: 1s all;
+}
+
+.is-flex-container .is-item-wrapper{
+    background: #fff683;
+    box-shadow: 0 2px 2px rgba(0,0,0,.24), 0 0 2px rgba(0,0,0,.12);
+    border-radius: 8px;
+    color: #ab6f1d;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 6em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.is-item-wrapper i{
+    font-size: 37px;
+    margin-right: 28px;
+}
+
+.is-flex-container .is-item-wrapper:hover{
+    background: #fec12a;
+    box-shadow: 0 6dpx 2px rgba(0,0,0,.24), 0 0 2px rgba(0,0,0,.12);
+}
+
+.is-p{
+    font-size: 18px;
+    text-align: center;
+    color: #676767;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-us-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.about-us-wrapper .about-item{
+    flex-basis: 23%;
+}
