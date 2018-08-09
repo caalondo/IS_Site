@@ -1,0 +1,32 @@
+.d_section {
+    padding: 20px;
+}
+#d_section1 {
+	font-size: 1.2em;
+}
+#WebPartTitleWPQ5 h2 {
+	display: none;
+}
+.is-flex-container {
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.is-flex-container .is-item-1 {
+	text-align: center;
+	flex-basis: 25%;
+}
+.is-flex-container .is-item-1 img {
+	width: 140px;
+}
+.is-flex-container .is-item-2 {
+	flex-basis: 75%;
+}
+.ms-listviewtable {
+	/*width: 100%;*/
+}
+#go_to_standars {
+	font-size: 0.6em;
+    margin-left: 15px;
+}
