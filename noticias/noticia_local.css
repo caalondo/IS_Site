@@ -24,7 +24,7 @@
 	transform:translateY(-7px);
 }
 
-.flex-container>div>a>img {
+.flex-container>div>a>.div-img>img {
 	width: 250px;
 }
 
@@ -39,16 +39,17 @@
 	font-size: 15px;
 	word-wrap: break-word;
 	font-weight: bold;
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
 .is-header {
 	margin-bottom: 1em;
 }
 .flex-container>div>a{
 	text-decoration: none;
 }
-
-/*.div-fecha>{
-	text-decoration: none;
-}*/
+.div-container p {
+	padding: 0 18px;
+}
+.div-container .div-img {
+	width: 250px;
+	height: 180px;
+}
