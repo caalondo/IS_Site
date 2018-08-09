@@ -8,13 +8,17 @@
 	box-shadow: 0 2px 2px rgba(0, 0, 0, .24), 0 0 2px rgba(0, 0, 0, .12);
 	width: 250px;
 	flex-direction: column;
-	margin: 1%;
+	margin: 15px 0px 15px 0;
 	top: 0;
 	transition: top ease 0.5s;
 	text-align: center;
 	line-height: 75px;
 	transition-property: all;
 	font-size: 15px;
+	position: relative;
+    padding-bottom: 30px;
+    border-radius: 6px;
+    background-color: #f8f8f8;
 }
 .flex-container>div>.description {
 	padding: 0 20px;
@@ -22,16 +26,6 @@
 .flex-container>div:hover {
 	box-shadow: 0 5px 5px rgba(0, 0, 0, .24), 0 0 5px rgba(0, 0, 0, .12);
 	transform:translateY(-7px);
-}
-
-.flex-container>div>a>.div-img>img {
-	width: 250px;
-}
-
-.flex-container>div>.div-fecha {
-	background-color: rgb(69, 143, 212);
-	position: relative;
-    top: 10px;
 }
 .flex-container>div>.div-fecha>p {
 	color: white;
@@ -46,10 +40,30 @@
 .flex-container>div>a{
 	text-decoration: none;
 }
-.div-container p {
-	padding: 0 18px;
-}
 .div-container .div-img {
-	width: 250px;
-	height: 180px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.div-container .div-img img {
+	height: 100%;
+	background-color: white;
+}
+.div-container .div-desc p {
+	padding: 20px 18px 5px 18px;
+	color: #535353;
+}
+.div-container .div-fecha {
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+}
+.div-container .div-fecha p {
+	font-size: 0.8em;
+	font-weight: 700;
+	color: #535353;
 }
