@@ -62,7 +62,8 @@
     color: #b4d5f9;
     font-size: 1.6em;
 }
-.is-main-container .is-p {
+.is-main-container .is-p,
+.is-main-container .is-list li {
     font-size: 1.4em !important;
     line-height: 1.5 !important;
 }
