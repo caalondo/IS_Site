@@ -59,6 +59,10 @@
 
 .is-header-2 span,
 .is-header-2 i {
-    color: white;
+    color: #b4d5f9;
     font-size: 1.6em;
+}
+.is-main-container .is-p {
+    font-size: 1.4em !important;
+    line-height: 1.5 !important;
 }
