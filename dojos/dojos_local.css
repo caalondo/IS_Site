@@ -133,3 +133,9 @@
 	font-size: 1.2em;
 	margin-right: 6px;
 }
+.pad-top-10 {
+	padding-top: 10px !important;
+}
+.pad-top-35 {
+	padding-top: 35px !important;
+}
